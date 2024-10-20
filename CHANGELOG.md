@@ -1,3 +1,7 @@
+## 0.0.3
+
+* Added BuildContext extensions - theme, colorScheme, textTheme, mediaQuery, size, padding
+
 ## 0.0.2
 
 * Added String extensions - toInt, toDouble, toCapitalize
