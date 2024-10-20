@@ -9,35 +9,27 @@ dependencies:
   booster: ^0.0.1
 ```
 
-## Widgets
+## Features
+- Widgets
+  - Gap: Gap may be used in place of SizedBox.square().
 
-<table>
-<tr>
-  <th>Widget</th>
-  <th>Description</th>
-  <th>Example</th>
-</tr>
+- Extensions
+  - Widget extensions
+    - toSliver: Converts a widget to a Sliver.
+    - toExpanded(): Converts a child of a Row, Column, or Flex widget to an Expanded.
+    - toFlexible(): Converts a child of a Row, Column, or Flex widget to a Flexible.
 
-<tr id="gap">
-<td><a href="#gap">Gap</a></td>
-<td>Use for spacing between widgets</td>
-<td>
+  - String extensions
+    - toInt: Converts the string to an integer if possible.
+    - toDouble: Converts the string to a double if possible.
+    - toCapitalize: Capitalizes the first character of each word in the string.
 
-```dart
-Column(
-  children: [
-    Text('Hello World!'),
-    Gap(8),
-    Text('Hello World!'),
-  ],
-)
-```
-</td>
-</tr>
-
-</table>
 
 ## License
 
 MIT License
 
+
+## Support
+
+<a href="https://www.buymeacoffee.com/hirokbanik" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
