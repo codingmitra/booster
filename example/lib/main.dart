@@ -10,15 +10,19 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       home: Scaffold(
         body: Center(
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Text('Hello World!'),
-              Gap(8),
-              Text('Hello World!'),
+              const Text('Hello World!'),
+              const Gap(8),
+              Container(
+                height: 100,
+                width: 100,
+                color: 'bada55'.toColor,
+              ),
             ],
           ),
         ),

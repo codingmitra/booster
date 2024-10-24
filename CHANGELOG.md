@@ -1,3 +1,7 @@
+## 0.0.4
+
+* Added toColor getter to String extension.
+
 ## 0.0.3
 
 * Added BuildContext extensions - theme, colorScheme, textTheme, mediaQuery, size, padding

@@ -1,6 +1,6 @@
 name: booster
 description: "A collection of useful widgets, extensions and utilities to boost Flutter app development."
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/codingmitra/booster
 repository: https://github.com/codingmitra/booster
 issue_tracker: https://github.com/codingmitra/booster/issues

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 /// Extensions for [BuildContext]
-extension ContextUtils on BuildContext {
+extension ContextExtension on BuildContext {
   /// Returns the [ThemeData] of this [BuildContext].
   ///
   /// ```dart

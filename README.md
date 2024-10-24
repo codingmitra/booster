@@ -6,7 +6,7 @@ A collection of useful widgets, extensions and utilities to boost Flutter app de
 
 ```yaml
 dependencies:
-  booster: ^0.0.3
+  booster: ^0.0.4
 ```
 
 ## Features
@@ -23,6 +23,7 @@ dependencies:
     - `toInt`: It converts the string to an integer if possible.
     - `toDouble`: It converts the string to a double if possible.
     - `toCapitalize`: It capitalizes the first character of each word in the string.
+    - `toColor`: It converts a CSS hex color string to a Color if possible.
 
   - BuildContext extensions
     - `theme`: It returns the ThemeData.
