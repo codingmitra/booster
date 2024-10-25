@@ -12,6 +12,8 @@ dependencies:
 ## Features
 - Widgets
   - `Gap`: It may be used in place of SizedBox.square().
+  - `FlexRow`: It's like a [Row] but it has a [gap] and [reversed] property.
+  - `FlexColumn`: It's like a [Column] but it has a [gap] and [reversed] property.
 
 - Extensions
   - Widget extensions

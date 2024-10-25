@@ -12,18 +12,65 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: Center(
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              const Text('Hello World!'),
-              const Gap(8),
-              Container(
-                height: 100,
-                width: 100,
-                color: 'bada55'.toColor,
-              ),
-            ],
+        body: SafeArea(
+          child: SingleChildScrollView(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                const Text('Hello World!'),
+                const Gap(8),
+                Container(
+                  height: 100,
+                  width: 100,
+                  color: 'bada55'.toColor,
+                ),
+                const Gap(16),
+                FlexRow(
+                  gap: 16,
+                  mainAxisSize: MainAxisSize.min,
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Container(
+                      height: 100,
+                      width: 100,
+                      color: 'bada55'.toColor,
+                    ),
+                    Container(
+                      height: 100,
+                      width: 100,
+                      color: '5eabed'.toColor,
+                    ),
+                    Container(
+                      height: 100,
+                      width: 100,
+                      color: 'facade'.toColor,
+                    ),
+                  ],
+                ),
+                const Gap(16),
+                FlexColumn(
+                  gap: 16,
+                  // reversed: true,
+                  children: [
+                    Container(
+                      height: 100,
+                      width: 100,
+                      color: 'bada55'.toColor,
+                    ),
+                    Container(
+                      height: 100,
+                      width: 100,
+                      color: '5eabed'.toColor,
+                    ),
+                    Container(
+                      height: 100,
+                      width: 100,
+                      color: 'facade'.toColor,
+                    ),
+                  ],
+                ),
+              ],
+            ),
           ),
         ),
       ),

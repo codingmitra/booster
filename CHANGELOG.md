@@ -1,6 +1,7 @@
 ## 0.0.4
 
-* Added toColor getter to String extension.
+* Added String extension - toColor.
+* Added widgets - FlexRow and FlexColumn.
 
 ## 0.0.3
 
