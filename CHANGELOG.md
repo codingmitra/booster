@@ -1,3 +1,7 @@
+## 0.0.5
+
+* Removed FlexRow and FlexColumn in favor of spacing property in [Row] and [Column].
+
 ## 0.0.4
 
 * Added String extension - toColor.
